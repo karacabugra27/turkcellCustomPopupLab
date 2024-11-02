@@ -30,11 +30,20 @@
         app:layout_constraintTop_toBottomOf="@+id/baslik" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonHayir"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="52dp"
-        android:text="Button"
+        android:text="Hayır"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mesaj" />
+
+    <Button
+        android:id="@+id/buttonEvet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Evet"
+        app:layout_constraintEnd_toStartOf="@+id/buttonHayir"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/mesaj" />
 </androidx.constraintlayout.widget.ConstraintLayout>
